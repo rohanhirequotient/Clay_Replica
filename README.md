@@ -5,7 +5,7 @@ Replica of Clay
 - Once repo is downloaded, run the command pip3 install -r requirements.txt.
 
 ## Step - 2
-- Replace openai_api_key in line 17 of agents.py with the actual key.
+- Replace openai_api_key in line 17 of agents.py with the actual key. Key must be within " ".
 
 ## How to run - 
 - At the end of the file agents.py, there is a line called query_template = "" and another line called csv_file = ''.
