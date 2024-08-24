@@ -897,7 +897,7 @@ def generate_from_csv(csv_file, query_template):
     df.to_csv(csv_file, index=False)
 
 if __name__ == "__main__":
-    query_template = "How long has the person in {Linkedin} been in their current role?"
-    csv_file = 'Utils/test5.csv'
+    query_template = "Who is the CEO of {Company_name}?"
+    csv_file = 'company.csv'
 
     generate_from_csv(csv_file, query_template)
