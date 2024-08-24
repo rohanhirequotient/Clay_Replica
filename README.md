@@ -17,4 +17,5 @@ Replica of Clay
 
     Company_name is a column in the file company.csv
 
-- Once done, run the command python3 agents.py.
+- Once done, run the command python3 agents.py
+- The csv file will now be populated with another column containing the answers the query run.
