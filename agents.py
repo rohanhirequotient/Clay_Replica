@@ -636,7 +636,7 @@ def generate_query(api_key, sub_task, context):
         if search_results:
             non_linkedin_urls = [result['link'] for result in search_results if "linkedin.com" not in result['link']][:10]
             if non_linkedin_urls:
-                body_contents = get_body_content_with_scraperapi(non_linkedin_urls, scraperapi_key="2444bb0ece5c5582483f951804900204")
+                body_contents = get_body_content_with_scraperapi(non_linkedin_urls, scraperapi_key="ce62f4c1ef87f306e5f0288b88778ff8")
                 combined_content = "\n\n".join(content for content in body_contents.values() if content)
                 if combined_content:
                     summarized_content = summarize_content( query, combined_content)
