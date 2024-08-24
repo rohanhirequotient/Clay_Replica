@@ -14,7 +14,7 @@ warnings.filterwarnings("ignore", category=CryptographyDeprecationWarning)
 from openai import OpenAI
 from pymongo import MongoClient
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="openai_api_key")
 #date must be in the format "YYYY-MM-DD"
 date = datetime.datetime.now().strftime("%Y-%m-%d")
 # Persistent context (using assistant's memory)
